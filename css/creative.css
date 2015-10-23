@@ -177,7 +177,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: #000;
     background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
@@ -206,9 +206,11 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+    text-indent: left; 
+    font-size: 100px;
+    font-weight: 700;
+    color: #000;
+  /*  rgba(255,255,255,.7);*/
 }
 
 @media(min-width:768px) {
